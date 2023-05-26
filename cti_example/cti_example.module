@@ -3,7 +3,7 @@
 /**
  * Implements hook_theme().
  */
-function cti_example_theme($existing, $type, $theme, $path) {
+function cti_example_theme(array $existing, string $type, string $theme, string $path): array {
   return [
     'block_example' => [
       'variables' => [
