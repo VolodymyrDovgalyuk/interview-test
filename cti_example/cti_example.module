@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function cti_example_theme($existing, $type, $theme, $path) {
+  return [
+    'block_example' => [
+      'variables' => [
+        'items' => NULL,
+        'articles_count' => NULL,
+      ],
+    ],
+  ];
+}

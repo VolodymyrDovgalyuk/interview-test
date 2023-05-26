@@ -1,0 +1,5 @@
+name: CTI Example
+description: Provides a custom functionality.
+core_version_requirement: ^9 || ^10
+type: module
+package: Custom
